@@ -2,3 +2,20 @@
     background-color: #0c2529;
     color: aliceblue;
 }
+.figura{
+    background-color: bisque;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    width: 60%;
+    padding: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10%;
+    border-radius: 15px;
+    height: 530px;
+}
+.imagem{
+    width: 70%;
+    height: 70%;
+    border-radius: 15px;
+}
