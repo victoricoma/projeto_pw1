@@ -1,21 +1,27 @@
-.corpocor{
-    background-color: #0c2529;
-    color: aliceblue;
+body{
+    margin: 0;
+    padding: 0;
 }
-.figura{
-    background-color: bisque;
-    font-family: 'Courier New', Courier, monospace;
-    color: black;
-    width: 60%;
-    padding: 10px;
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-top: 10%;
-    border-radius: 15px;
-    height: 530px;
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #262840;
 }
-.imagem{
-    width: 70%;
-    height: 70%;
-    border-radius: 15px;
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active){
+    background-color: #2E3559;
+}
+.active{
+    background-color:#D97EA8;
 }
