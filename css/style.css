@@ -3,9 +3,12 @@ body {
   padding: 0;
   font-family: "Roboto", sans-serif;
 }
-.container-form{
+.form-container{
   padding: 16px;
   background-color: aliceblue;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
 }
 input[type=text], input[type=password]{
   width: 100%;
@@ -13,11 +16,35 @@ input[type=text], input[type=password]{
   margin: 5px 0 22px 0;
   display: inline-block;
   border: none;
-  background: #f1f1f1;
+  background-color: #f1f1f1;
 }
 input[type=text]:focus, input[type=password]:focus{
-  background: #ddd;
+  background-color: #ddd;
   outline: none;
+}
+hr{
+  border: 1px solid #262840;
+  margin-bottom: 25px;
+}
+.registerbtn{
+  width: 100%;
+  color: #262840;
+  background-color: #d97ea8;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  opacity: 0.9;
+}
+.registerbtn:hover{
+  opacity: 1;
+}
+a{
+  color: dodgerblue;
+}
+.signin{
+  background-color: #f1f1f1;
+  text-align: center;
 }
 .tablink{
   background-color: #555;
