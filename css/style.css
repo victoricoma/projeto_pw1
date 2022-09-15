@@ -142,16 +142,6 @@ a{
   padding: 10px;
   flex: 50%;
 }
-@media (max-width: 800px) {
-  .flex-container {
-    flex-direction: column;
-  }
-}
-@media (max-width: 800px) {
-  .bannerTab{
-    display: none;
-  }
-}
 ul {
   list-style-type: none;
   margin: 0;
@@ -190,4 +180,18 @@ li a:hover:not(.active) {
   padding: 2px 16px;
   font-size: medium;
   height: 120px;
+}
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+  .bannerTab{
+    display: none;
+  }
+  #bannerForm{
+    display: none;
+  }
+  .form-container{
+    width: 95%;
+  }
 }
