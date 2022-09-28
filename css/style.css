@@ -142,7 +142,7 @@ a{
   padding: 10px;
   flex: 50%;
 }
-ul {
+nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -152,20 +152,20 @@ ul {
   top: 0;
   width: 100%;
 }
-li {
+nav li {
   float: left;
 }
-li a {
+nav li a {
   display: block;
   color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
-li a:hover:not(.active) {
+nav li a:hover:not(.active) {
   background-color: #2e3559;
 }
-.active {
+nav .active {
   background-color: #d97ea8;
 }
 .card {
